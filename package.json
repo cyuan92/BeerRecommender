@@ -1,0 +1,15 @@
+{
+	"name": "BeerMe",
+	"version": "0.0.1",
+	"author": "Steve Leung and Connie Yuan",
+	"description": "Beer Recommender",
+	"main": "app.js",
+	"dependencies": {
+		"express": "~3.3.5",
+		"ejs": "*",
+		"aws-sdk": "*",
+		"async": "*",
+		"bcrypt-nodejs": "*",
+		"csv": "*"
+	}
+}

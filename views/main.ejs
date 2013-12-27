@@ -1,0 +1,25 @@
+<html>
+<head>
+	<%- include head.ejs %>
+<head>
+
+<body>
+	<div class="container">
+		
+		<% /* Search form */ %>
+		<div class = "searchForm">
+		<form action="/search" method="post" role="form">
+			<% if (message) { %>
+				<p class="error"><%=message%></p>
+			<% } %>
+
+			<% /* Search input */ %>
+			<input type="text" class="form-control" id="search" name="search" placeholder="What are you drinking?">
+			
+			<% /* Search button */%>
+			<button type="submit" class="btn btn-primary">Recommend a Beer</button>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
